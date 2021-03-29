@@ -69,6 +69,20 @@ object FastTest : BuildType({
     }
 })
 
+object FastTest2 : BuildType({
+    templates(Tmp)
+    name = "NEEEW"
+
+    params {
+        param("browsers", "IE")
+    }
+
+    dependencies {
+        snapshot(FastTest) {
+        }
+    }
+})
+
 object OtherTests : BuildType({
     templates(Tmp)
     name = "OtherTests"
