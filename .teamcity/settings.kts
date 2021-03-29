@@ -55,7 +55,7 @@ object Deploy : BuildType({
 object FastTest : BuildType({
     templates(Tmp)
     name = "FastTest"
-
+    description = "Muahahahahahahahahahahahahahahahahahahahahahahah"
     params {
         param("browsers", "Chrome")
     }
