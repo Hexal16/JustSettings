@@ -69,7 +69,7 @@ object FastTest : BuildType({
     }
 })
 
-object FastTest2 : BuildType({
+object NEEEW : BuildType({
     templates(Tmp)
     name = "NEEEW"
 
