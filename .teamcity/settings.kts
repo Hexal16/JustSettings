@@ -33,6 +33,7 @@ project {
     buildType(FastTest)
     buildType(Deploy)
     buildType(OtherTests)
+     buildType(NEEEW)
 
     template(Tmp)
 }
